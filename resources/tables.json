@@ -1,0 +1,8 @@
+{
+  "t_cstmrs":["customers","client","user"],
+  "t_ggrphy":["geography","place","location"],
+  "t_prdcat":["productcategory","producttypes","productschema","productcategories","category"],
+  "t_prds":["items","products","product"],
+  "t_prdsubcat":["productsubcategory","subcategories","subcategories","subcategory"],
+  "t_saldtls":["saledetails","salesdetails","sales","orders"]
+}

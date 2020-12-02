@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="w3c">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/libraries/w3c.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

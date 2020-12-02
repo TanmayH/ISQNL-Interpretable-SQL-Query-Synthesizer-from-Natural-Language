@@ -1,0 +1,17 @@
+{
+  "t_cstmrs":
+  {
+    "t_cstmrs.BirthDate":["birthdate","dob","dateofbirth","birthday","born"],
+    "t_cstmrs.DateFirstPurchase":["datefirstpurchase","purchasedate","firstpurchasedate"]
+  },
+
+  "t_saldtls":
+  {
+    "t_saldtls.OrderDate": ["orderdate","dateordered"],
+    "t_saldtlsShipDate": ["shipdate","dateship","shippingdate"]
+  }
+
+
+
+
+}

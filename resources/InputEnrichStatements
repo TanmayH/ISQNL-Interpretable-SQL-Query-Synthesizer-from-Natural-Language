@@ -1,0 +1,12 @@
+{
+  "married":"maritalstatus is M $",
+  "unmarried":"maritalstatus is S $",
+  "female":"gender is F $",
+  "male":"gender is M $",
+  "single":"maritalstatus is S $",
+  "costliest":"highest price $",
+  "cheapest":"lowest price $",
+  "subcategory":"subcategory with productsubcategoryname $",
+  "older":"age greater",
+  "younger":"age lesser"
+}

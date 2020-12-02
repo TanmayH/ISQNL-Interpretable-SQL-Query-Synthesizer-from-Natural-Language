@@ -1,0 +1,11 @@
+{
+  "t_cstmrs":"customers",
+  "t_ggrphy":"geography",
+  "t_prdcat":"productcategory",
+  "t_prds":"product",
+  "t_prdsubcat":"productsubcategory",
+  "t_saldtls":"saledetails",
+  "v_cst_info":"customer info",
+  "v_prd_info":"product info",
+  "v_sal_info":"sale info"
+}

@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="WordNet">
+    <ANNOTATIONS>
+      <root url="file://$USER_HOME$/Desktop/libraries/WordNet" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/libraries/WordNet" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Desktop/libraries/WordNet" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$USER_HOME$/Desktop/libraries/WordNet" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/libraries/WordNet" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop/libraries/WordNet" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Desktop/libraries/WordNet" recursive="false" type="SOURCES" />
+  </library>
+</component>

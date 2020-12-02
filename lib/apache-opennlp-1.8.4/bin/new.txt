@@ -1,0 +1,75 @@
+list all the customers
+give full names of all customers
+customer with name Jose
+Get information of customer Jasmine Lee
+get each country
+list all products
+get all types of products
+which are product categories
+product sub categories for Clothing
+list price of Spokes
+get the price of helmet
+get the price of red black helmet
+which product is code HL-U509?
+show the Road Bikes
+products with price less than 50$
+get the products price more than 1000
+which is highest priced product
+list all products of Touring Bikes
+Total sales for February 2009
+which customer has bought Mountain Tire Tube
+show the customers in France
+customers who reside in California
+show products which are red
+show red products
+Get red products of Road bikes
+show Black Helmets
+show details of product FR-M94S-38
+how much does Road Tire Tube cost?
+What is the standard cost of Chain
+list the Clothing Products
+list the products in the order of list price
+get the orders from New South Wales Australia
+Customers in Canada or Australia
+Customers of Canada and Australia
+Customers with postal code 37343
+Get customers who are in Management
+get customers who have children at home
+Customers with yearly income more than 120000
+Customers who are married and from Australia
+customers who have Graduate Degree and from Germany or France
+customers who ordered helmets in 2010
+customers whos first name starts with "N"
+is there any customer who has more than one car
+customers with no car in Berlin Germany
+customers who studied High School
+show all unmarried male customers
+get details of customer Carol
+Find the number of customers in each country
+average unit price of all products
+which product has maximum price 
+Orders placed before 01-01-2007
+List the customers who are older than 50 years
+customers not older than 30 years
+customers with birthday today
+orders shipped today
+show address of customer Blake Anderson
+what is total sales of February 2006
+How much tax collected in Jan 2010
+which product sold most in 2008?
+which product give safe comfortable ride
+number of orders in Apr-2009
+Number of orders in last year
+number of orders shipped in the past 365 days
+show subtotal of orders for product : helmet
+show customers who bought more than 2 products
+which customers never ordered helmet?
+which customers only use mountain bikes
+how many orders are there for each category
+total sales for each category
+how many orders for each sub category
+number of orders for each category in the year 2010
+customers in germany who purchased mountain bikes but not helmets
+number of customers in each country
+number of customers in each state of United States
+number of customers in Canada grouped by each state

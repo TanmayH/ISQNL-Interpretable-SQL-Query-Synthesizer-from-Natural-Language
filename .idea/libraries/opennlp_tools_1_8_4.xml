@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="opennlp-tools-1.8.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/apache-opennlp-1.8.4/lib/opennlp-tools-1.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaws-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/w3c.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/algs4.jar!/" />
+    </SOURCES>
+  </library>
+</component>

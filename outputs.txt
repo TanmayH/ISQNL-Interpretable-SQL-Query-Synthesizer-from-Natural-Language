@@ -1,0 +1,206 @@
+1 show all customer names whose average income is greater than 4000
+SELECT AVG( YearlyIncome ) , FullName FROM t_cstmrs GROUP BY FullName HAVING AVG( YearlyIncome )> 4000
+
+2 show all customer whose average income is greater than 4000
+SELECT AVG( YearlyIncome ) FROM t_cstmrs WHERE AVG( YearlyIncome )> 4000
+
+3 list all the customers
+SELECT * FROM t_cstmrs
+
+4 give full names of all customers
+SELECT FullName FROM t_cstmrs
+
+5 customer with name Jose
+SELECT * FROM t_cstmrs WHERE LOWER( FullName ) = 'jose'
+
+6 Get information of customer whose full name is 'Jasmine Lee'
+SELECT * FROM t_cstmrs WHERE LOWER( FullName ) = 'jasmine lee'
+
+7 get each country
+SELECT DISTINCT CountryRegion FROM t_ggrphy
+
+8 list all products
+SELECT * FROM t_prds
+
+9 get all types of products
+SELECT * FROM t_prds
+
+10 which are product categories
+SELECT * FROM t_prdcat
+
+11 product sub categories for category name Clothing
+SELECT * FROM t_prdcat INNER JOIN t_prdsubcat ON t_prdcat.ProductCategoryKey = t_prdsubcat.ProductCategoryKey INNER JOIN t_prds ON t_prdsubcat.ProductSubCategoryKey = t_prds.ProductSubCategoryKey WHERE LOWER( t_prdcat.ProductCategoryName ) = 'clothing'
+
+12 list price of product name spokes
+SELECT ListPrice , ProductName FROM t_prds WHERE LOWER( ProductName ) = 'spokes'
+
+13 get the price of subcategory helmet
+SELECT * FROM t_prdsubcat WHERE LOWER( ProductSubCategoryName ) = 'helmet'
+
+14 get the price of  red black products of subcategory helmet
+SELECT t_prdsubcat.ProductSubCategoryName , t_prds.Color , t_prds.ListPrice FROM t_prds INNER JOIN t_prdsubcat ON t_prdsubcat.ProductSubCategoryKey = t_prds.ProductSubCategoryKey WHERE ( LOWER( t_prdsubcat.ProductSubCategoryName ) = 'helmet' ) AND ( LOWER( t_prds.Color ) = 'black' OR LOWER( t_prds.Color ) = 'red' )
+
+15 which product is code HL-U509 ?
+SELECT * FROM t_prds WHERE LOWER( ProductKey ) = 'hl-u509'
+
+16 show the product name ' Road Bikes '
+SELECT * FROM t_prds WHERE LOWER( ProductName ) = 'road bikes'
+
+17 products with price less than 50 $
+SELECT * FROM t_prds WHERE ListPrice < 50
+
+18 get the products price more than 1000
+SELECT * FROM t_prds WHERE ListPrice > 1000
+
+19 which is highest price product name
+SELECT MAX( ListPrice ) , ProductName FROM t_prds GROUP BY ProductName
+
+20 list all products of product name ' Touring Bikes '
+SELECT * FROM t_prds WHERE LOWER( ProductName ) = 'touring bikes'
+
+21 Total sales for 28 February 2009
+SELECT COUNT( * ) FROM t_saldtls WHERE OrderDate = '2009-02-28'
+
+22 which customer has bought product with productname 'Mountain Tire Tube'
+SELECT * FROM t_cstmrs INNER JOIN t_saldtls ON t_cstmrs.CustomerKey = t_saldtls.CustomerKey INNER JOIN t_prds ON t_saldtls.ProductKey = t_prds.ProductKey WHERE LOWER( t_prds.ProductName ) = 'mountain tire tube'
+
+23 show the customers in France
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE LOWER( t_ggrphy.CountryRegion ) = 'france'
+
+24 customers who reside in California state
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE LOWER( t_ggrphy.StateProvince ) = 'california'
+
+25 show products which are red
+SELECT * FROM t_prds WHERE LOWER( Color ) = 'red'
+
+26 show red products
+SELECT * FROM t_prds WHERE LOWER( Color ) = 'red'
+
+27 Get red products of product name 'Road bikes'
+SELECT * FROM t_prds WHERE LOWER( ProductName ) = 'road bikes' AND LOWER( Color ) = 'red'
+
+28 show Black products of subcategory Helmets
+SELECT * FROM t_prds INNER JOIN t_prdsubcat ON t_prdsubcat.ProductSubCategoryKey = t_prds.ProductSubCategoryKey WHERE LOWER( t_prdsubcat.ProductSubCategoryName ) = 'helmets' AND LOWER( t_prds.Color ) = 'black'
+
+29 show details of product with code FR-M94S-38
+SELECT * FROM t_prds WHERE LOWER( ProductKey ) = 'fr-m94s-38'
+
+30 how much does product name 'Road Tire Tube' cost?
+SELECT ListPrice , ProductName FROM t_prds WHERE LOWER( ProductName ) = 'road tire tube'
+
+31 What is the standard cost of subcategory  Chain
+SELECT * FROM t_prdsubcat WHERE LOWER( ProductSubCategoryName ) = 'chain'
+
+32 list the products of category name Clothing
+SELECT * FROM t_prdcat INNER JOIN t_prdsubcat ON t_prdcat.ProductCategoryKey = t_prdsubcat.ProductCategoryKey INNER JOIN t_prds ON t_prdsubcat.ProductSubCategoryKey = t_prds.ProductSubCategoryKey WHERE LOWER( t_prdcat.ProductCategoryName ) = 'clothing'
+
+33 list the products in the order of list price
+SELECT t_prds.ListPrice FROM t_prds INNER JOIN t_saldtls ON t_saldtls.ProductKey = t_prds.ProductKey
+
+34 get the orders from the state of 'New South Wales' Australia
+SELECT * FROM t_ggrphy INNER JOIN t_cstmrs ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey INNER JOIN t_saldtls ON t_cstmrs.CustomerKey = t_saldtls.CustomerKey WHERE LOWER( t_ggrphy.StateProvince ) = 'new south wales' AND LOWER( t_ggrphy.CountryRegion ) = 'australia'
+
+35 Customers in country Canada or Australia
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE LOWER( t_ggrphy.CountryRegion ) = 'canada' OR LOWER( t_ggrphy.CountryRegion ) = 'australia'
+
+36 Customers of country Canada and Australia
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE LOWER( t_ggrphy.CountryRegion ) = 'canada' OR LOWER( t_ggrphy.CountryRegion ) = 'australia'
+
+37 Get customers who are in occupation Management
+SELECT * FROM t_cstmrs WHERE LOWER( Occupation ) = 'management'
+
+38 Customers with place postal code 37343
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE LOWER( t_ggrphy.PostalCode ) = '37343'
+
+39 Customers with yearly income more than 120000
+SELECT * FROM t_cstmrs WHERE YearlyIncome > 120000
+
+40 Customers who are married and from Australia
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE LOWER( t_cstmrs.MaritalStatus ) = 'm' AND LOWER( t_ggrphy.CountryRegion ) = 'australia'
+
+41 customers who have studied 'Graduate Degree' and from Germany or France
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE ( LOWER( t_ggrphy.CountryRegion ) = 'france' OR LOWER( t_ggrphy.CountryRegion ) = 'germany' ) AND ( LOWER( t_cstmrs.Education ) = 'graduate degree' )
+
+42 customers who have studied 'Graduate Degree' and from Germany or France
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE ( LOWER( t_ggrphy.CountryRegion ) = 'france' OR LOWER( t_ggrphy.CountryRegion ) = 'germany' ) AND ( LOWER( t_cstmrs.Education ) = 'graduate degree' )
+
+43 customers  whose  sales order date of product name helmet is in the year 2010
+SELECT t_prds.ProductName , t_saldtls.OrderDate , t_saldtls.SalesOrderint FROM t_cstmrs INNER JOIN t_saldtls ON t_cstmrs.CustomerKey = t_saldtls.CustomerKey INNER JOIN t_prds ON t_saldtls.ProductKey = t_prds.ProductKey WHERE LOWER( t_prds.ProductName ) = 'helmet' AND YEAR( t_saldtls.OrderDate ) = '2010'
+
+44 customers whose first name starts with 'N'
+SELECT * FROM t_cstmrs WHERE LOWER( FirstName ) LIKE 'n%'
+
+45 number of customer who have car more than 1 
+SELECT COUNT( intCarsOwned ) FROM t_cstmrs
+
+46 customers with 0 car in the city of Berlin Germany
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE t_cstmrs.intCarsOwned = '0' AND LOWER( t_ggrphy.City ) = 'berlin' AND LOWER( t_ggrphy.CountryRegion ) = 'germany'
+
+47 customers who  have studied  'High School'
+SELECT * FROM t_cstmrs WHERE LOWER( Education ) = 'high school'
+
+48 show all unmarried male customers
+SELECT Gender , MaritalStatus FROM t_cstmrs WHERE LOWER( Gender ) = 'm'
+
+49 get details of customer whose first name is Carol
+SELECT * FROM t_cstmrs WHERE LOWER( FirstName ) = 'carol'
+
+50 average unit price of all products
+SELECT ListPrice FROM t_prds
+
+51 which product name has maximum price
+SELECT MAX( ListPrice ) , ProductName FROM t_prds GROUP BY ProductName
+
+52 sales orders placed before 1 Jan 2007
+SELECT * FROM t_saldtls WHERE OrderDate < '2007-01-01'
+
+53 List the customers who are older than 50 years
+SELECT * FROM t_cstmrs WHERE Age > 50
+
+54 customers with birthday today
+SELECT * FROM t_cstmrs WHERE BirthDate = '2019-01-22'
+
+55 orders with shipping date  today
+SELECT * FROM t_saldtls WHERE ShipDate = '2019-01-22'
+
+56 show address of customer whose full name is 'Blake Anderson'
+SELECT AddressLine1 , FullName FROM t_cstmrs WHERE LOWER( FullName ) = 'blake anderson'
+
+57 Total sales for 28 February 2009
+SELECT COUNT( * ) FROM t_saldtls WHERE OrderDate = '2009-02-28'
+
+58 which product description is  'safe comfortable ride'
+SELECT * FROM t_prds WHERE LOWER( Description ) = 'safe comfortable ride'
+
+59 number of orders in 1 Apr 2009
+SELECT COUNT( * ) FROM t_saldtls WHERE OrderDate = '2009-04-01'
+
+60 Number of sales orders last year
+SELECT COUNT( * ) FROM t_saldtls WHERE YEAR( OrderDate ) = '2018'
+
+61 show subtotal of sales order for product name helmet
+SELECT SUM( t_saldtls.SalesOrderint ) , t_prds.ProductName FROM t_prds INNER JOIN t_saldtls ON t_saldtls.ProductKey = t_prds.ProductKey GROUP BY t_prds.ProductName
+
+62 customers whose order quantity is 0 for product name helmet?
+SELECT * FROM t_cstmrs INNER JOIN t_saldtls ON t_cstmrs.CustomerKey = t_saldtls.CustomerKey INNER JOIN t_prds ON t_saldtls.ProductKey = t_prds.ProductKey WHERE t_saldtls.OrderQuantity = 0 AND LOWER( t_prds.ProductName ) = 'helmet'
+
+63 which customers only use product name  ' mountain bikes '
+SELECT * FROM t_cstmrs INNER JOIN t_saldtls ON t_cstmrs.CustomerKey = t_saldtls.CustomerKey INNER JOIN t_prds ON t_saldtls.ProductKey = t_prds.ProductKey WHERE LOWER( t_prds.ProductName ) = 'mountain bikes'
+
+64 number of orders for each category
+SELECT COUNT( t_prdcat.ProductCategoryName ) FROM t_prdcat INNER JOIN t_prdsubcat ON t_prdcat.ProductCategoryKey = t_prdsubcat.ProductCategoryKey INNER JOIN t_prds ON t_prdsubcat.ProductSubCategoryKey = t_prds.ProductSubCategoryKey INNER JOIN t_saldtls ON t_saldtls.ProductKey = t_prds.ProductKey
+
+65 how many orders for each sub category
+SELECT * FROM t_prdsubcat INNER JOIN t_prds ON t_prdsubcat.ProductSubCategoryKey = t_prds.ProductSubCategoryKey INNER JOIN t_saldtls ON t_saldtls.ProductKey = t_prds.ProductKey
+
+66 customers in germany who purchased subcategory 'mountain bikes' but not helmets
+SELECT * FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey INNER JOIN t_saldtls ON t_cstmrs.CustomerKey = t_saldtls.CustomerKey INNER JOIN t_prds ON t_saldtls.ProductKey = t_prds.ProductKey INNER JOIN t_prdsubcat ON t_prdsubcat.ProductSubCategoryKey = t_prds.ProductSubCategoryKey WHERE LOWER( t_prdsubcat.ProductSubCategoryName ) != 'helmets' AND LOWER( t_prdsubcat.ProductSubCategoryName ) = 'mountain bikes' AND LOWER( t_ggrphy.CountryRegion ) = 'germany'
+
+67 number of customers in each country
+SELECT COUNT( * ) , t_ggrphy.CountryRegion FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey GROUP BY t_ggrphy.CountryRegion
+
+68 number of customers in each state from the country 'United States'
+SELECT COUNT( * ) , t_ggrphy.StateProvince FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE LOWER( t_ggrphy.CountryRegion ) = 'united states' GROUP BY t_ggrphy.StateProvince
+
+69 number of customers in Canada grouped by each state
+SELECT COUNT( * ) , t_ggrphy.StateProvince FROM t_cstmrs INNER JOIN t_ggrphy ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey WHERE LOWER( t_ggrphy.CountryRegion ) = 'canada' GROUP BY t_ggrphy.StateProvince

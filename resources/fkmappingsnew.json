@@ -1,0 +1,39 @@
+{
+  "t_cstmrs":
+  {
+    "t_ggrphy":{
+      "on":" ON t_cstmrs.GeographyKey = t_ggrphy.GeographyKey and a.demokey = b.demokey"
+    },
+    "t_saldtls":{
+      "on": " ON t_cstmrs.CustomerKey = t_saldtls.CustomerKey "
+    }
+  },
+  "t_ggrphy":{
+
+  },
+  "t_prdcat":{
+    "t_prdsubcat":{
+      "on":" ON t_prdcat.ProductCategoryKey = t_saldtls.ProductCategoryKey  "
+    }
+
+  },
+  "t_prds":{
+
+    "t_saldtls":{
+      "on":" ON t_saldtls.ProductKey = t_prds.ProductKey "
+    },
+    "t_prdsubcat":{
+      "on":" ON t_prdsubcat.ProductSubCategoryKey = t_prds.ProductSubCategoryKey "
+    }
+
+  },
+  "t_prdsubcat":{
+    "t_prdcat":{
+      "on":" ON t_prdcat.ProductCategoryKey = t_prdsubcat.ProductCategoryKey "
+    }
+
+  },
+  "t_saldtls":{
+
+  }
+}

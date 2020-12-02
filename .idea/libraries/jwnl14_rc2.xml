@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jwnl14-rc2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/libraries/jwnl14-rc2" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Desktop/libraries/jwnl14-rc2/doc/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/libraries/jwnl14-rc2/src" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop/libraries/jwnl14-rc2" recursive="false" />
+  </library>
+</component>

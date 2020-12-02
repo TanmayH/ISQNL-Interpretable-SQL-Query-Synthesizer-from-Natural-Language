@@ -1,0 +1,78 @@
+{
+  "t_cstmrs":
+  {
+    "t_cstmrs.FirstName": ["firstname", "forename"],
+    "t_cstmrs.MiddleName":["middlename"],
+    "t_cstmrs.LastName":["lastname","surname"],
+    "t_cstmrs.Age":["age"],
+    "t_cstmrs.FullName":["fullname","name","fullnames"],
+    "t_cstmrs.BirthDate":["birthdate","dob","dateofbirth","born","birthday"],
+    "t_cstmrs.MaritalStatus":["maritalstatus"],
+    "t_cstmrs.Gender":["gender","sex"],
+    "t_cstmrs.EmailAddress":["emailaddress","emailid","mailaddress","mail"],
+    "t_cstmrs.YearlyIncome":["yearlyincome","income"],
+    "t_cstmrs.TotalChildren":["totalchildren","numberofchildren"],
+    "t_cstmrs.intChildrenAtHome":["childrenathome","ChildrenAtHome","children at home"],
+    "t_cstmrs.Education":["education","qualification","studied"],
+    "t_cstmrs.Occupation":["occupation","work"],
+    "t_cstmrs.HouseOwnerFlag":["houseownerflag"],
+    "t_cstmrs.intCarsOwned":["carsowned","number of cars","car","cars"],
+    "t_cstmrs.AddressLine1":["addressline1","address"],
+    "t_cstmrs.AddressLine2":["addressline2"],
+    "t_cstmrs.Phone":["phone","phone number","contact number"],
+    "t_cstmrs.DateFirstPurchase":["datefirstpurchase","purchasedate","firstpurchasedate"],
+    "t_cstmrs.CommuteDistance":["commutedistance","distancetravelled"]
+  },
+  "t_ggrphy":
+  {
+    "t_ggrphy.City": ["city", "center"],
+    "t_ggrphy.StateProvinceCode":["stateprovincecode"],
+    "t_ggrphy.CountryRegion":["countryregion","country","region"],
+    "t_ggrphy.StateProvince":["stateprovince","state"],
+    "t_ggrphy.CountryRegionCode":["countryregioncode","regioncode"],
+    "t_ggrphy.PostalCode":["postalcode","pincode"]
+  },
+  "t_prdcat":
+  {
+    "t_prdcat.ProductCategoryName":["productcategoryname","categoryname","subproduct","category"],
+    "t_prds.StandardCost":["standardcost","StandardCost"],
+    "t_prds.Color":["color","colour"],
+    "t_prds.SafetyStockLevel":["safetystocklevel"],
+    "t_prds.ReorderPoint":["reorderpoint"],
+    "t_prds.ListPrice":["listprice","cost"],
+    "t_prds.Description":["description","summary"]
+  },
+  "t_prdsubcat":
+  {
+    "t_prdsubcat.ProductSubCategoryName": ["productsubcategoryname","subcategoryname","subcategory"]
+  },
+  "t_prds":
+  {
+    "t_prds.ProductKey": ["code","productkey"],
+    "t_prds.ProductName": ["productname"],
+    "t_prds.StandardCost":["standardcost"],
+    "t_prds.Color":["color","colour"],
+    "t_prds.SafetyStockLevel":["safetystocklevel"],
+    "t_prds.ReorderPoint":["reorderpoint"],
+    "t_prds.ListPrice":["listprice","costprice","price"],
+    "t_prds.Description":["description","summary"]
+
+  },
+  "t_saldtls":
+  {
+    "t_saldtls.OrderDate": ["orderdate","dateordered"],
+    "t_saldtls.ShipDate": ["shipdate","dateship","shippingdate"],
+    "t_saldtls.SalesOrderint":["salesorder"],
+    "t_saldtls.SalesOrderLineint":["salesorderline"],
+    "t_saldtls.OrderQuantity":["orderquantity","quantity"],
+    "t_saldtls.UnitPrice":["unitprice"],
+    "t_saldtls.UnitPriceDiscountPct":["unitpricediscountpct","unit discount"],
+    "t_saldtls.DiscountAmount":["discountamount","discountamount","discount"],
+    "t_saldtls.ProductStandardCost":["productstandardcost"],
+    "t_saldtls.TotalProductCost":["totalproductcost"],
+    "t_saldtls.SalesAmount":["salesamount"],
+    "t_saldtls.TaxAmt":["tax amount","tax"],
+    "t_saldtls.Freight":["freight","transport"]
+
+  }
+}

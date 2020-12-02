@@ -1,0 +1,596 @@
+<?xml version="1.0" ?>
+<rootclause>
+    <appendix>
+        <item>list</item>
+        <item>descending</item>
+        <item>reverse</item>
+        <item>decreasing</item>
+        <item>arrange</item>
+        <item>ascending</item>
+        <item>sorted</item>
+        <item>increasing</item>
+        <item>wise</item>
+        <item>count</item>
+        <item>whole</item>
+        <item>number</item>
+        <item>different</item>
+        <item>distinct</item>
+        <item>Distinct</item>
+        <item>each</item>
+        <item>unique</item>
+        <item>all types</item>
+        <item>noticeable</item>
+        <item>grouped</item>
+        <item>group</item>
+        <item>Group</item>
+        <item>Grouped</item>
+        <item>medium</item>
+        <item>around</item>
+        <item>intermediate</item>
+        <item>medium</item>
+        <item>middle</item>
+        <item>median</item>
+        <item>standard</item>
+        <item>adequate</item>
+        <item>balance</item>
+        <item>equate</item>
+        <item>mean</item>
+        <item>mid</item>
+        <item>average</item>
+        <item>all</item>
+        <item>everything</item>
+        <item>every</item>
+        <item>entire</item>
+        <item>complete</item>
+        <item>from</item>
+        <item>among</item>
+        <item>amongst</item>
+        <item>within</item>
+        <item>around</item>
+        <item>about</item>
+        <item>concerning</item>
+        <item>of</item>
+        <item>the</item>
+        <item>subtotal</item>
+        <item>sum</item>
+        <item>add</item>
+        <item>total</item>
+        <item>sigma</item>
+        <item>least</item>
+        <item>min</item>
+        <item>minimum</item>
+        <item>lowest</item>
+        <item>most</item>
+        <item>maximum</item>
+        <item>highest</item>
+        <item>max</item>
+        <item>having</item>
+        <item>there</item>
+        <item>are</item>
+        <item>many</item>
+        <item>Number</item>
+        <item>not</item>
+        <item>home</item>
+        <item>Home</item>
+        <item>information</item>
+        <item>give</item>
+        <item>have</item>
+        <item>number</item>
+        <item>details</item>
+        <item>total</item>
+        <item>count</item>
+        <item>are</item>
+        <item>is</item>
+        <item>being</item>
+        <item>january</item>
+        <item>february</item>
+        <item>march</item>
+        <item>april</item>
+        <item>may</item>
+        <item>june</item>
+        <item>july</item>
+        <item>august</item>
+        <item>september</item>
+        <item>october</item>
+        <item>november</item>
+        <item>december</item>
+        <item>years</item>
+        <item>living</item>
+    </appendix>
+
+    <synonymsappendix>
+        <item>name</item>
+        <item>list</item>
+        <item>yearly</item>
+        <item>age</item>
+        <item>gender</item>
+        <item>shipped</item>
+        <item>orders</item>
+        <item>order</item>
+        <item>last</item>
+        <item>year</item>
+        <item>years</item>
+        <item>first</item>
+        <item>list</item>
+    </synonymsappendix>
+ <dataappendix>
+     <item>bought</item>
+     <item>products</item>
+     <item>use</item>
+     <item>Dec</item>
+     <item>Nov</item>
+     <item>Oct</item>
+     <item>Sep</item>
+     <item>Aug</item>
+     <item>Jul</item>
+     <item>Jun</item>
+     <item>May</item>
+     <item>Apr</item>
+     <item>Mar</item>
+     <item>Feb</item>
+     <item>Jan</item>
+     <item>dec</item>
+     <item>nov</item>
+     <item>oct</item>
+     <item>sep</item>
+     <item>aug</item>
+     <item>july</item>
+     <item>jun</item>
+     <item>may</item>
+     <item>apr</item>
+     <item>mar</item>
+     <item>feb</item>
+     <item>jan</item>
+     <item>customers</item>
+     <item>firstname</item>
+     <item>forename</item>
+     <item>middlename</item>
+     <item>lastname</item>
+     <item>surname</item>
+     <item>age</item>
+     <item>fullname</item>
+     <item>name</item>
+     <item>fullnames</item>
+     <item>birthdate</item>
+     <item>dob</item>
+     <item>dateofbirth</item>
+     <item>born</item>
+     <item>birthday</item>
+     <item>maritalstatus</item>
+     <item>gender</item>
+     <item>sex</item>
+     <item>emailaddress</item>
+     <item>emailid</item>
+     <item>mailaddress</item>
+     <item>mail</item>
+     <item>yearlyincome</item>
+     <item>income</item>
+     <item>totalchildren</item>
+     <item>numberofchildren</item>
+     <item>childrenathome</item>
+     <item>ChildrenAtHome</item>
+     <item>education</item>
+     <item>qualification</item>
+     <item>studied</item>
+     <item>occupation</item>
+     <item>work</item>
+     <item>houseownerflag</item>
+     <item>carsowned</item>
+     <item>numberofcars</item>
+     <item>car</item>
+     <item>cars</item>
+     <item>addressline1</item>
+     <item>address</item>
+     <item>addressline2</item>
+     <item>phone</item>
+     <item>phonenumber</item>
+     <item>contactnumber</item>
+     <item>datefirstpurchase</item>
+     <item>purchasedate</item>
+     <item>commuteddistance</item>
+     <item>distancetravelled</item>
+     <item>city</item>
+     <item>center</item>
+     <item>stateprovincecode</item>
+     <item>countryregion</item>
+     <item>country</item>
+     <item>region</item>
+     <item>stateprovince</item>
+     <item>state</item>
+     <item>countryregioncode</item>
+     <item>regioncode</item>
+     <item>postalcode</item>
+     <item>pincode</item>
+     <item>productcategoryname</item>
+     <item>categoryname</item>
+     <item>standardcost</item>
+     <item>color</item>
+     <item>colour</item>
+     <item>safetystocklevel</item>
+     <item>reorderpoint</item>
+     <item>listprice</item>
+     <item>cost</item>
+     <item>description</item>
+     <item>summary</item>
+     <item>productsubcategoryname</item>
+     <item>geography</item>
+     <item>place</item>
+     <item>location</item>
+     <item>productcategory</item>
+     <item>producttypes</item>
+     <item>productschema</item>
+     <item>productcategories</item>
+     <item>category</item>
+     <item>productsubcategory</item>
+     <item>subcategories</item>
+     <item>subcategories</item>
+     <item>subcategory</item>
+     <item>email</item>
+     <item>subcategory</item>
+     <item>user</item>
+     <item>users</item>
+     <item>live</item>
+     <item>collected</item>
+     <item>Jan</item>
+     <item>not</item>
+     <item>address</item>
+     <item>show</item>
+     <item>shipped</item>
+     <item>unit</item>
+     <item>order</item>
+     <item>cost</item>
+     <item>list</item>
+     <item>same</item>
+     <item>starts</item>
+     <item>resides</item>
+     <item>customer</item>
+     <item>client</item>
+     <item>user</item>
+     <item>people</item>
+     <item>geography</item>
+     <item>state</item>
+     <item>place</item>
+     <item>country</item>
+     <item>category</item>
+     <item>productcategory</item>
+     <item>product</item>
+     <item>order</item>
+     <item>productsubcategory</item>
+     <item>sales</item>
+     <item>transaction</item>
+     <item>trade</item>
+     <item>code</item>
+     <item>productkey</item>
+     <item>productname</item>
+     <item>standardcost</item>
+     <item>color</item>
+     <item>colour</item>
+     <item>safetystocklevel</item>
+     <item>reorderpoint</item>
+     <item>listprice</item>
+     <item>costprice</item>
+     <item>price</item>
+     <item>description</item>
+     <item>summary</item>
+     <item>orderdate</item>
+     <item>dateordered</item>
+     <item>shipdate</item>
+     <item>dateship</item>
+     <item>shippingdate</item>
+     <item>salesorder</item>
+     <item>salesorderline</item>
+     <item>orderquantity</item>
+     <item>quantity</item>
+     <item>unitprice</item>
+     <item>unitpricediscountpct</item>
+     <item>unitdiscount</item>
+     <item>discountamount</item>
+     <item>discount</item>
+     <item>productstandardcost</item>
+     <item>totalproductcost</item>
+     <item>salesamount</item>
+     <item>taxamount</item>
+     <item>tax</item>
+     <item>freight</item>
+     <item>transport</item>
+     <item>working</item>
+     <item>which</item>
+     <item>who</item>
+     <item>when</item>
+     <item>whose</item>
+     <item>why</item>
+     <item>how</item>
+     <item>show</item>
+     <item>all</item>
+     <item>default</item>
+     <item>equal</item>
+     <item>equals</item>
+     <item>where</item>
+     <item>study</item>
+ </dataappendix>
+
+
+    <hypernymsappendix>
+        <item>sales</item>
+        <item>income</item>
+        <item>place</item>
+        <item>age</item>
+        <item>description</item>
+        <item>address</item>
+        <item>shipped</item>
+        <item>berlin</item>
+        <item>car</item>
+        <item>home</item>
+        <item>california</item>
+        <item>name</item>
+        <item>Lee</item>
+        <item>list</item>
+        <item>order</item>
+        <item>orders</item>
+        <item>quantity</item>
+        <item>entity</item>
+        <item>years</item>
+        <item>yearly</item>
+        <item>lee</item>
+        <item>cost</item>
+        <item>gender</item>
+    </hypernymsappendix>
+    <All>
+        <item>all</item>
+        <item>everything</item>
+        <item>every</item>
+        <item>entire</item>
+        <item>complete</item>
+    </All>
+
+    <Average>
+        <item>Mean</item>
+        <item>Average</item>
+        <item>mean</item>
+        <item>average</item>
+    </Average>
+
+    <count>
+        <item>count</item>
+        <item>whole</item>
+        <item>number</item>
+    </count>
+
+    <ascending>
+        <item>ascending order</item>
+        <item>sorted order</item>
+        <item>increasing order</item>
+        <item>order by</item>
+        <item>wise</item>
+    </ascending>
+
+
+
+
+    <descending>
+        <item>descending order</item>
+        <item>reverse sorted</item>
+        <item>decreasing order</item>
+    </descending>
+
+    <orderby>
+        <item>sort</item>
+        <item>order</item>
+    </orderby>
+
+    <Equals>
+        <item>equal</item>
+        <item>equals</item>
+        <item>is</item>
+        <item>equivalent</item>
+        <item>comparable</item>
+        <item>balanced</item>
+        <item>matching</item>
+        <item>look-alike</item>
+        <item>same</item>
+        <item>alike</item>
+        <item>homologous</item>
+        <item>indistinguishable</item>
+        <item>identical</item>
+        <item>uniform</item>
+        <item>parallel</item>
+        <item>invariable</item>
+        <item>level</item>
+        <item>in line</item>
+        <item>competent</item>
+        <item>satisfactory</item>
+        <item>tolerable</item>
+        <item>fair</item>
+        <item>concur</item>
+        <item>accord</item>
+        <item>get along with</item>
+        <item>fit</item>
+        <item>match</item>
+        <item>coincide</item>
+        <item>associated</item>
+        <item>carbon copy</item>
+        <item>duplicate</item>
+        <item>ditto</item>
+        <item>related</item>
+        <item>resembling</item>
+        <item>catch up</item>
+        <item>close</item>
+        <item>match</item>
+        <item>meet</item>
+        <item>near</item>
+        <item>reachable</item>
+        <item>equitable</item>
+        <item>plain</item>
+        <item>similar</item>
+    </Equals>
+    <From>
+       <item>from</item>
+        <item>among</item>
+        <item>amongst</item>
+        <item>within</item>
+        <item>around</item>
+        <item>about</item>
+        <item>concerning</item>
+        <item>of</item>
+        <item>the</item>
+    </From>
+    <Greater>
+        <item>older than</item>
+        <item>greater than</item>
+        <item>higher than</item>
+        <item>bigger than</item>
+        <item>more than</item>
+        <item>above</item>
+        <item>over</item>
+        <item>larger than</item>
+        <item>exceeding</item>
+    </Greater>
+    <Lesser>
+        <item>younger than</item>
+        <item>lesser than</item>
+        <item>lower than</item>
+        <item>less than</item>
+        <item>under</item>
+        <item>below</item>
+    </Lesser>
+    <mapping>
+    </mapping>
+    <maximum>
+        <item>most</item>
+        <item>maximum</item>
+        <item>highest</item>
+        <item>max</item>
+    </maximum>
+
+    <maxwords>
+        <item>expensive</item>
+        <item>costly</item>
+        <item>costliest</item>
+    </maxwords>
+
+    <minimum>
+        <item>least</item>
+        <item>min</item>
+        <item>minimum</item>
+        <item>lowest</item>
+    </minimum>
+
+    <minwords>
+        <item>cheap</item>
+        <item>cheapest</item>
+    </minwords>
+    <Not>
+        <item>neither</item>
+        <item>not</item>
+        <item>not equal</item>
+        <item>not equals</item>
+        <item>none</item>
+        <item>no</item>
+        <item>aside</item>
+        <item>against</item>
+        <item>without</item>
+    </Not>
+    <Like>
+
+        <item>like</item>
+        <item>starts with</item>
+        <item>ends with</item>
+        <item>ending with</item>
+        <item>beginning</item>
+        <item>begins with</item>
+        <item>ending with</item>
+         <item>contains</item>
+         <item>contain</item>
+    </Like>
+
+     <like>
+         <item>like</item>
+         <item>contain</item>
+         <item>contians</item>
+     </like>
+
+    <starts>
+        <item>starting with</item>
+        <item>begins with</item>
+        <item>beginning with</item>
+        <item>starts with</item>
+        <item>start with</item>
+    </starts>
+    <ends>
+        <item>end with</item>
+        <item>ending with</item>
+        <item>ends with</item>
+    </ends>
+    <Nouns>
+        <item>cstmrs</item>
+    </Nouns>
+    <others>
+        <item>wis</item>
+    </others>
+    <Select>
+        <item>select</item>
+        <item>show</item>
+        <item>get</item>
+        <item>find</item>
+        <item>acquire</item>
+        <item>reveal</item>
+        <item>display</item>
+        <item>exhibit</item>
+        <item>declare</item>
+        <item>notify</item>
+        <item>pop</item>
+        <item>elucidate</item>
+        <item>imply</item>
+        <item>form</item>
+        <item>methodize</item>
+        <item>disclose</item>
+        <item>list</item>
+        <item>in</item>
+    </Select>
+
+    <sum>
+        <item>subtotal</item>
+        <item>sum</item>
+        <item>add</item>
+        <item>total</item>
+        <item>sigma</item>
+    </sum>
+
+    <Sumambigous>
+        <item>total number of</item>
+        <item>number of</item>
+    </Sumambigous>
+
+
+     <Distinct>
+         <item>different</item>
+         <item>distinct</item>
+         <item>Distinct</item>
+         <item>each</item>
+         <item>unique</item>
+         <item>all types</item>
+         <item>noticeable</item>
+     </Distinct>
+    <before>
+        <item>before</item>
+    </before>
+    <after>
+        <item>after</item>
+    </after>
+
+    <GroupBy>
+        <item>grouped</item>
+        <item>group</item>
+        <item>Group</item>
+        <item>Grouped</item>
+    </GroupBy>
+
+    <tablenames>
+        <item>customers</item>
+        <item>geography</item>
+        <item>colors</item>
+        <item>clothes </item>
+        <item>sale</item>
+    </tablenames>
+
+</rootclause>

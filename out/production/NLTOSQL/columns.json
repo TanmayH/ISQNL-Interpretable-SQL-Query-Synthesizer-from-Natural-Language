@@ -1,0 +1,40 @@
+{
+  "t_cstmrs":{
+    "t_prdcts":
+    {
+      "from":"col1", //this means t_cstmrs -> t_prdcts from col1 in t_cstmrs to col2 in t_prdcts
+      "to":"col2"   //delete the comments as json doesnt allow comments
+    },
+
+    "t_geography":{
+      "from":"col5",
+      "to":"col6"
+    }
+
+  },
+  "t_prdcts":{
+
+    "t_prdcats":{
+      "from":"col3",
+      "to":"col4"
+    },
+
+    "t_cstmrs":{
+      "from":"col2",
+      "to":"col1"
+    }
+
+  },
+  "t_geography":{
+    "t_cstmrs":{
+      "from":"col6",
+      "to":"col5"
+    }
+  },
+  "t_prdcats":{
+    "t_prdcts":{
+      "from":"col4",
+      "to":"col3"
+    }
+  }
+}

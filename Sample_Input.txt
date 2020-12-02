@@ -1,0 +1,69 @@
+show all customer names whose average income is greater than 4000
+show all customer whose average income is greater than 4000
+list all the customers
+give full names of all customers
+customer with name Jose
+Get information of customer whose full name is 'Jasmine Lee'
+get each country
+list all products
+get all types of products
+which are product categories
+product sub categories for category name Clothing
+list price of product name spokes
+get the price of subcategory helmet
+get the price of  red black products of subcategory helmet
+which product is code HL-U509 ?
+show the product name ' Road Bikes '
+products with price less than 50 $
+get the products price more than 1000
+which is highest price product name
+list all products of product name ' Touring Bikes '
+Total sales for 28 February 2009
+which customer has bought product with productname 'Mountain Tire Tube'
+show the customers in France
+customers who reside in California state
+show products which are red
+show red products
+Get red products of product name 'Road bikes'
+show Black products of subcategory Helmets
+show details of product with code FR-M94S-38
+how much does product name 'Road Tire Tube' cost?
+What is the standard cost of subcategory  Chain
+list the products of category name Clothing
+list the products in the order of list price
+get the orders from the state of 'New South Wales' Australia
+Customers in country Canada or Australia
+Customers of country Canada and Australia
+Get customers who are in occupation Management
+Customers with place postal code 37343
+Customers with yearly income more than 120000
+Customers who are married and from Australia
+customers who have studied 'Graduate Degree' and from Germany or France
+customers who have studied 'Graduate Degree' and from Germany or France
+customers  whose  sales order date of product name helmet is in the year 2010
+customers whose first name starts with 'N'
+number of customer who have car more than 1 
+customers with 0 car in the city of Berlin Germany
+customers who  have studied  'High School'
+show all unmarried male customers
+get details of customer whose first name is Carol
+average unit price of all products
+which product name has maximum price
+sales orders placed before 1 Jan 2007
+List the customers who are older than 50 years
+customers with birthday today
+orders with shipping date  today
+show address of customer whose full name is 'Blake Anderson'
+Total sales for 28 February 2009
+which product description is  'safe comfortable ride'
+number of orders in 1 Apr 2009
+Number of sales orders last year
+show subtotal of sales order for product name helmet
+customers whose order quantity is 0 for product name helmet?
+which customers only use product name  ' mountain bikes '
+number of orders for each category
+how many orders for each sub category
+customers in germany who purchased subcategory 'mountain bikes' but not helmets
+number of customers in each country
+number of customers in each state from the country 'United States'
+number of customers in Canada grouped by each state
